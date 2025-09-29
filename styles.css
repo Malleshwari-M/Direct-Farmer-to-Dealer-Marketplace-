@@ -1,0 +1,35 @@
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+input, select, textarea {
+  margin: 10px 0;
+  padding: 10px;
+}
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+}
+.product-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
