@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Register</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 <header>
@@ -12,25 +12,26 @@
     <a href="index.html">Home</a>
     <a href="register.html">Register</a>
     <a href="login.html">Login</a>
+    <a href="dashboard.html">Products</a>
   </nav>
 </header>
+
 <main>
   <h2>Create an Account</h2>
   <form id="registerForm">
-    <input type="text" id="name" placeholder="Name" required>
-    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
     <select id="role" required>
       <option value="">Select Role</option>
       <option value="farmer">Farmer</option>
       <option value="dealer">Dealer</option>
     </select>
-    <input type="password" id="password" placeholder="Password" required>
+    <input type="password" id="password" placeholder="Password" required />
     <button type="submit">Register</button>
   </form>
 </main>
-<footer>
-  <p>&copy; 2025 AgriConnect</p>
-</footer>
+
+<footer><p>&copy; 2025 AgriConnect</p></footer>
 <script src="script.js"></script>
 </body>
 </html>
